@@ -1,33 +1,21 @@
 package pekan2;
 import java.util.Scanner;
+import java.util.InputMismatchException;
 
 public class tugasAlproPekan2 {
-	public static void main(String[] args) {
+	public static void main (String[] args) {
+		/*deklarasi dan inisialisasi variabel*/
+		boolean status = true;
+		String nama = "Muhammad Faiz An-Anri";;
+		int umur = 19 ;
+		char kelas = 'A' ;
+		float IPK = 3.44f;
 		
-		Scanner scanner = new Scanner(System.in) ;
-		
-		System.out.println(" === Data Mahasiswa === ");
-		
-		
-		System.out.print("Masukkan NIM\t: ");
-		String NIM = scanner.nextLine() ;
-		
-		System.out.print("Masukkan nama\t: ");
-		String nama = scanner.nextLine() ;
-		
-		System.out.print("Masukkan umur\t: ");
-		int umur = scanner.nextInt();
-		
-		System.out.println(" === Data Mahasiswa === ");
-		System.out.println("NIM\t: " + NIM);
-		System.out.println("Nama\t: " + nama);
-		System.out.println("Umur\t: " + umur + " tahun\n");
-		
-		String strumur = Integer.toString(umur);
-		System.out.println("Umur (String)\t : " + strumur );
-		
-		long nimPumur= Long.parseLong(NIM) + umur ;
-		System.out.println("NIM + Umur\t : " + nimPumur);
-		
+		System.out.println(" ===BIODATA FAIZ=== "); 
+		System.out.println("Nama\t: " + nama); ///display data string
+		System.out.println("Umur\t: " + umur); ///display data integer
+		System.out.println("Kelas\t: " + kelas); ///display data char
+		System.out.println("IPK\t: " + IPK); ///display data float
+		System.out.println(nama + " adalah mahasiswa\t : " + status); ///display data boolean
 	}
 }
