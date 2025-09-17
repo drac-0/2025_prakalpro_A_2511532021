@@ -10,7 +10,8 @@ public class tugasAlproPekan2 {
 		int umur = 19 ;
 		char kelas = 'A' ;
 		float IPK = 3.44f;
-		
+
+		/*Menampilkan data yang disimpan*/
 		System.out.println(" ===BIODATA MAHASISWA=== ");
 		System.out.println("Aktif\t: "+ statusaktif); ///display data boolean
 		System.out.println("Nama\t: " + nama); ///display data string
