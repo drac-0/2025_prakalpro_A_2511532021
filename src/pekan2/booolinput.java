@@ -5,13 +5,11 @@ import java.util.InputMismatchException;
 ///i learn how to do recursive func, i learn that a class must have a main function with argumen string and args, 
 ///and most importantly is how to get an input from user in java
  
-public class tugasAlproPekan2 {
-	public static void main(String[] args) {
-		tugasAlproPekan2.datamahasiswa();
+public class booolinput {
+		
 	}
 	
-	public static void datamahasiswa() {
-		
+	public static void datamahasiswa() {	
 		Scanner scanner = new Scanner(System.in) ;
 		
 		
@@ -61,6 +59,11 @@ public class tugasAlproPekan2 {
 		catch (InputMismatchException e) {
 			System.out.println("Pilihannya cuman true atau false, ulangi lagi");
 			tugasAlproPekan2.datamahasiswa();
+
 		}
 	}
+	
+	public static void main(String[] args) {
+		tugasAlproPekan2.datamahasiswa();}
+
 }
