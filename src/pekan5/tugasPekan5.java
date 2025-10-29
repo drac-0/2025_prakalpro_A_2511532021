@@ -10,7 +10,6 @@ public class tugasPekan5 {
 			for (int k = 1 ; k <= line -1 ; k++) {
 				System.out.print(".");
 			}
-				
 			System.out.println();
 		}
 	}
