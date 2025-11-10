@@ -26,9 +26,7 @@ public class tugaspekan6_2511532021 {
 				
 				if (jawab.equalsIgnoreCase("n")) {
 					System.out.println("ANDA KALAH, TOTAL PERCOBAAN bermain = " + percobaan);
-					break;
-				}
-				
+					break;}
 				}
 		}
 		input.close();
