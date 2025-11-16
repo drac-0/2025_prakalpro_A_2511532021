@@ -46,7 +46,7 @@ public class tugasPekan7_2511532021 {
 	    }
 	    
 	    System.out.println("REGISTRASI BERHASIL");
-	    System.out.println("Akun : " + x.getName() + "Dibuat");
+	    System.out.println("Akun : " + x.getName() + " Dibuat");
 	    System.out.println("");
 	    
 	    System.out.println("DETAIL AKUN");
