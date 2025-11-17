@@ -134,7 +134,12 @@ public class OperatorAritmatikaGUI_2511532021 extends JFrame {
 						}
 						
 						if (c == 3) {
-							hasil = a / b;
+							if (b != 0) {
+							hasil = a / b;}
+							
+							else {
+								pesanError("Tidak dapat dibagi dengan 0");
+							}
 						}
 						
 						if (c == 4) {
