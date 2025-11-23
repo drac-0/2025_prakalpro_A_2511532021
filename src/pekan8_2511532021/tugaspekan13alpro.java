@@ -1,7 +1,7 @@
 package pekan8_2511532021;
 import java.util.*;
 
-public class Main {
+public class tugaspekan13alpro {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.print("MASUKKAN BATAS ANGKA : ");
@@ -13,10 +13,12 @@ public class Main {
 		for (int i=0;i<=batas;i++) {
 			if (i % 2 == 1) {
 				a = a + i;
+			
 			}
 			else {
 				continue;
 			}
 		}
+		return a;
 	}
 }
